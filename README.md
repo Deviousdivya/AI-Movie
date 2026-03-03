@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Movie Insight Builder 🎬
 
-## Getting Started
+A modern full-stack application that provides detailed movie metadata and AI-powered audience sentiment analysis based on IMDb IDs.
 
-First, run the development server:
+## 🛠️ Tech Stack Rationale
+This project follows the required JavaScript/TypeScript ecosystem for scalable web applications:
+* **Next.js (React):** Used as the core framework to handle both the frontend UI and backend API routes efficiently.
+* **Tailwind CSS:** Employed to create a premium, modern, and responsive design for both desktop and mobile devices.
+* **GSAP:** Integrated to provide the required "beautiful design and animations" requested in the project brief.
+* **Google Gemini AI:** Leveraged to generate the AI summary of audience sentiment and overall classification (Positive/Mixed/Negative).
+* **OMDb API:** Used as the primary data source to fetch movie posters, cast lists, and metadata.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ⚙️ Setup Instructions
+Follow these steps to set up the project locally:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
+   cd ai-movie-insight
